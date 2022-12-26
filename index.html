@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cssfiles\styles.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form>
+            <div class="form-control">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name here" size="40">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email here">
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label><br>
+                <input type="text" id="age" name="age" placeholder="Enter your age here">
+            </div>
+            <div class="form-control">
+                <label for="occupation">Which option best describes you?</label><br>
+                <select id="occupation" name="occupation">
+                    <option value="student">Student</option>
+                    <option value="working">Working Professional</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="retired">Retired</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="yes">Would you recommend our site to your friend?</label><br>
+                <input type="radio" id="yes" name="recommend" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="recommend" value="no">
+                <label for="no">No</label><br>
+                <input type="radio" id="maybe" name="recommend" value="maybe">
+                <label for="maybe">Maybe</label>
+            </div>
+            <div class="form-control">
+                <label for="checklist">Languages and frameworks you know</label><br>
+                <input type="checkbox" id="c" name="lang" value="C">
+                <label for="c">C</label><br>
+                <input type="checkbox" id="cpp" name="lang" value="C++">
+                <label for="cpp">C++</label><br>
+                <input type="checkbox" id="java" name="lang" value="java">
+                <label for="java">Java</label><br>
+                <input type="checkbox" id="python" name="lang" value="python">
+                <label for="python">Python</label><br>
+                <input type="checkbox" id="html" name="lang" value="html">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="lang" value="css">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="js" name="lang" value="js">
+                <label for="js">Javascript</label><br>
+                <input type="checkbox" id="bootstrap" name="lang" value="bootstrap">
+                <label for="bootstrap">Bootstrap</label><br>
+                <input type="checkbox" id="tailwind" name="lang" value="tailwind">
+                <label for="tailwind">Tailwind</label><br>
+                <input type="checkbox" id="django" name="lang" value="django">
+                <label for="django">Django</label><br>
+            </div>
+            <div class="form-control">
+                <label for="comments">Any comments or suggestions</label><br>
+                <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+            </div>
+            <div class="form-control">
+                <input type="submit" value="Submit">
+                <p style="color: rgb(197, 195, 195)">HTML and CSS practice</p>
+            </div>
+        </form>
+    </body>
+</html>

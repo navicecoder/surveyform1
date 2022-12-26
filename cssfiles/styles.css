@@ -1,0 +1,60 @@
+h1{
+    color: maroon;
+    text-align: center;
+}
+body{
+    background-color: rgb(219, 187, 148);
+    text-align: center;
+}
+form{
+    margin: 40px auto;
+    background-color: aliceblue;
+    max-width: 500px;
+    padding: 30px 10px;
+}
+.form-control{
+    margin: 30px 40px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form-control label{
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control select,
+.form-control textarea,
+.form-control input{
+    width: 95%;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    border: 1px solid black;
+    display: block;
+
+}
+
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+
+
+
+.form-control input[type="submit"]{
+    background-color: maroon;
+    color: white;
+    width:95%
+}
+
+.form-control input[type="submit"]:hover{
+    background-color: black;
+}
+.
+
+/*.form-control label{
+    padding-bottom: 10px;
+}*/
